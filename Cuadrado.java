@@ -19,7 +19,11 @@ public class Cuadrado {
 		return lado*lado;
 	}
 	
-	public Cuadrado(int ID) {
-		this.lado = ID;
+	public Cuadrado(int lado) {
+		this.lado = lado;
+	}
+	
+	public Cuadrado() {
+		this(174720);
 	}
 }

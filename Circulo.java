@@ -17,8 +17,11 @@ public class Circulo {
 		return Math.PI*radio*radio;
 	}
 	
-	public Circulo(int ID) {
-		this.radio = ID;
+	public Circulo(int radio) {
+		this.radio = radio;
+	}
+	
+	public Circulo() {
+		this(174720);
 	}
 }
-
