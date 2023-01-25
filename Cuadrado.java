@@ -1,7 +1,7 @@
 package Actividad2;
 
 public class Cuadrado {
-	public int lado;
+	 int lado;
 	
 	public int laLongitud() {
 		return lado;

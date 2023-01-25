@@ -1,7 +1,7 @@
 package Actividad2;
 
 public class Circulo {
-	public int radio;
+	 int radio;
 	
 	
 	public int elRadio() {
@@ -13,7 +13,7 @@ public class Circulo {
 	}
 	
 	
-	public double elArea() {
+	public double elArea(){
 		return Math.PI*radio*radio;
 	}
 	
